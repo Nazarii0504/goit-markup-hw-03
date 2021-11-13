@@ -1,0 +1,228 @@
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --acent-color: #2196f3;
+  --other-color: #000000;
+  --fon-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* -----------------Header --------*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-left {
+  color: var(--acent-color);
+}
+.logo-right {
+  color: var(--other-color);
+}
+.nav {
+  color: var(--main-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav:hover,
+.nav:focus {
+  color: var(--acent-color);
+}
+.link-item:hover,
+.link-item:focus {
+  color: var(--acent-color);
+}
+.link-item {
+  color: var(--second-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* --------------Main-------- */
+.upmain {
+  background-color: #2f303a;
+}
+.upmain-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+.upmain-button {
+  background-color: var(--acent-color);
+  color: var(--third-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/* ------------------About ------------------*/
+.about-item {
+  color: var(--main-text-color);
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.about-text {
+  font-weight: normal;
+  line-height: 1.71;
+}
+.work-item {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-title {
+  color: var(--main-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-item {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  color: var(--second-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* ------------------Footer---------------- */
+.bottom {
+  background: #2f303a;
+}
+.logotype-left {
+  color: var(--acent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logotype-right {
+  color: var(--third-text-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.bottom-text {
+  color: var(--fon-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+.bottom-text:hover {
+  color: var(--third-text-color);
+}
+.bottom-text:focus {
+  color: var(--third-text-color);
+}
+.bottom-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+  color: var(--fon-color);
+}
+.bottom-link:hover {
+  color: var(--third-text-color);
+}
+.bottom-link:focus {
+  color: var(--third-text-color);
+}
+.bottom-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+  color: var(--fon-color);
+}
+.bottom-phone:hover {
+  color: var(--third-text-color);
+}
+.bottom-phone:focus {
+  color: var(--third-text-color);
+}
+/* ----------------Portfolio main-------------*/
+.hero-btn {
+  color: var(--main-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  background-color: #f5f4fa;
+}
+.hero-btn:focus {
+  color: var(--third-text-color);
+  background-color: var(--acent-color);
+}
+.hero-btn:hover {
+  color: var(--third-text-color);
+  background-color: var(--acent-color);
+}
+.gallery-item {
+  color: var(--main-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-text {
+  color: var(--second-text-color);
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}

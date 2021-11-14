@@ -18,7 +18,30 @@ body {
 .link {
   text-decoration: none;
 }
-p, h1, h2, h3, h4, h5, h6 {
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 ul {
@@ -27,6 +50,18 @@ ul {
 }
 button {
   cursor: pointer;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .visually-hidden {
   position: absolute;
@@ -41,7 +76,24 @@ button {
   margin: -1px;
 }
 /* -----------------Header --------*/
-
+.object {
+  border-bottom: 1px solid #ececec;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+}
+.navig {
+  display: flex;
+  align-items: center;
+}
+.navig-list {
+  display: flex;
+  margin-left: 93px;
+}
+.navig-list-item: not(: last-child) {
+  margin-right: 50px;
+}
 .logo {
   font-family: Raleway;
   font-weight: bold;

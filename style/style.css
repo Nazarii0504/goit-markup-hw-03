@@ -138,9 +138,13 @@ button {
 }
 /* --------------Main-------- */
 .upmain {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
   background-color: #2f303a;
 }
 .upmain-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -150,6 +154,12 @@ button {
   color: var(--third-text-color);
 }
 .upmain-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--acent-color);
   color: var(--third-text-color);
   font-family: Roboto;

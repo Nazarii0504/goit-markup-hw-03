@@ -91,7 +91,7 @@ button {
   display: flex;
   margin-left: 93px;
 }
-.navig-list-item: not(: last-child) {
+.navig-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .logo {
@@ -106,21 +106,31 @@ button {
 .logo-right {
   color: var(--other-color);
 }
-.nav {
+.navig-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav:hover,
-.nav:focus {
+.navig-link:hover,
+.navig-link:focus {
   color: var(--acent-color);
 }
-.link-item:hover,
-.link-item:focus {
+.address {
+  display: flex;
+  margin-left: auto;
+}
+.address-list:not(:last-child) {
+  margin-right: 43px;
+}
+.address-list-link:hover,
+.address-list-link:focus {
   color: var(--acent-color);
 }
-.link-item {
+.address-list-link {
   color: var(--second-text-color);
   font-weight: 500;
   line-height: 1.14;

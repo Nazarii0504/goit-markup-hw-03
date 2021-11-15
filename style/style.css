@@ -215,12 +215,29 @@ button {
   margin-right: 30px;
 }
 /* ---------------Team ------------------*/
+.team{
+  background-color:#F5F4FA;
+}
+.team-content {
+  display: flex;
+}
+.team-list:not(:last-child) {
+  margin-right: 30px;
+  
+}
+.team-list{
+  background-color:var(--third-text-color);
+}
+.team-list-img{
+  margin-bottom: 30px;
+}
 .team-title {
   color: var(--main-text-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 59px;
 }
 .team-item {
   color: var(--main-text-color);
@@ -228,6 +245,7 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
 }
 .team-text {
   color: var(--second-text-color);
@@ -235,6 +253,7 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  padding-bottom: 30px;
 }
 /* ------------------Footer---------------- */
 .bottom {

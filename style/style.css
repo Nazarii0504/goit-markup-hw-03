@@ -193,7 +193,10 @@ button {
 .work {
   display: flex;
   padding-top: 0;
-  weight
+  width: calc((100% - 60) / 3);
+}
+.work:not(:last-child) {
+  margin-right: 30px;
 }
 .work-item {
   font-weight: bold;
@@ -211,6 +214,7 @@ button {
 .work-list:not(last-child) {
   margin-right: 30px;
 }
+/* ---------------Team ------------------*/
 .team-title {
   color: var(--main-text-color);
   font-weight: bold;
